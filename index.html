@@ -1,0 +1,877 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>hugo-solstice-theme | The Eclipse Foundation</title>
+<meta property="og:title" content="hugo-solstice-theme | The Eclipse Foundation" />
+<meta name="twitter:title" content="hugo-solstice-theme | The Eclipse Foundation" />
+
+<meta name="description" content="This is an example of the Eclipse Foundation Solstice theme for Hugo.">
+<meta property="og:description" content="This is an example of the Eclipse Foundation Solstice theme for Hugo.">
+<meta name="twitter:description" content="This is an example of the Eclipse Foundation Solstice theme for Hugo.">
+<meta name="author" content="Christopher Guindon"/>
+<link href='https://www.eclipse.org/favicon.ico' rel='icon' type='image/x-icon'/>
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@EclipseFdn" />
+<meta name="twitter:creator" content="@EclipseFdn" />
+<meta property="og:url" content="https://eclipsefdn.github.io/hugo-solstice-theme/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Hugo Solstice Theme" />
+<meta name="keywords" content="hugo, solstice, eclipse foundation">
+
+
+<meta name="generator" content="Hugo 0.54.0" />
+<link rel="canonical" href="https://eclipsefdn.github.io/hugo-solstice-theme/" />
+
+<link rel="alternate" href="/hugo-solstice-theme/index.xml" type="application/rss+xml" title="">
+
+
+<link rel="stylesheet" href="https://eclipse.org/eclipse.org-common/themes/solstice/public/stylesheets/quicksilver.min.css">
+
+  
+<link href="//fonts.googleapis.com/css?family=Libre+Franklin:400,700,300,600,100" rel="stylesheet" type="text/css"/>
+
+  
+</head>
+<body>
+  
+<a class="sr-only" href="#content">Skip to main content</a>
+<header class="header-wrapper header-default-bg-img" id="header-wrapper">
+  
+
+<div class="clearfix toolbar-container-wrapper">
+  <div class="container">
+    <div class="text-right toolbar-row row hidden-print">
+      <div class="col-md-24 row-toolbar-col">
+        <ul class="list-inline">
+          <li><a href="https://accounts.eclipse.org/user/edit" class="" data-tab-destination="tab-profile"><i class="fa fa-edit fa-fw"></i> Edit my account</a></li>
+          <li><a class="toolbar-link toolbar-manage-cookies dropdown-toggle"><i class="fa fa-wrench"></i> Manage Cookies</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row" id="header-row">
+    <div class="col-sm-5 col-md-4" id="header-left">
+      <div class="wrapper-logo-default">
+          <a title="Hugo Solstice Theme" href="https://eclipsefdn.github.io/hugo-solstice-theme/">
+            <img width="140" class="logo-eclipse-default img-responsive hidden-xs" src="https://www.eclipse.org/eclipse.org-common/themes/solstice/public/images/logo/eclipse-foundation-white-orange.svg" alt="Hugo Solstice Theme" />
+          </a>
+        
+      </div>
+    </div>
+    
+    <div class="col-sm-4 col-md-5 text-right hidden-print hidden-xs pull-right margin-top-10" id="header-right">
+      <div id="btn-call-for-action"><a href="https://www.eclipse.org/downloads" class="btn btn-huge btn-warning"><i class="fa fa-download"></i> Download</a></div>
+    </div>
+    <div class="col-sm-15 col-md-15 reset margin-top-10" id="main-menu-wrapper">
+    
+      <div class="navbar yamm" id="main-menu">
+        <div class="navbar-collapse collapse reset float-right" id="navbar-main-menu">
+          <ul class="nav navbar-nav">
+            
+
+
+
+<li class="dropdown">
+  <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+    
+    
+    <span>Examples</span>
+    <b class="caret"></b>
+  </a>
+  <ul class="dropdown-menu">
+    
+    <li><a href="/hugo-solstice-theme/single_page/">Single Page</a> </li>
+    
+    <li><a href="/hugo-solstice-theme/news/">News</a> </li>
+    
+    <li><a href="/hugo-solstice-theme/events/">Events</a> </li>
+    
+    <li><a href="/hugo-solstice-theme/membership/">Membership</a> </li>
+    
+    <li><a href="/hugo-solstice-theme/faq/">FAQ</a> </li>
+    
+  </ul>
+  
+</li>
+
+
+<li class="dropdown eclipse-more hidden-xs">
+  <a data-toggle="dropdown" class="dropdown-toggle" role="button">More<b class="caret"></b></a>
+  <ul class="dropdown-menu">
+    <li>
+      
+      <div class="yamm-content">
+        <div class="row">
+          <ul class="col-sm-8 list-unstyled">
+            <li>
+              <p><strong>Community</strong></p>
+            </li>
+            <li><a href="http://marketplace.eclipse.org">Marketplace</a></li>
+            <li><a href="http://events.eclipse.org">Events</a></li>
+            <li><a href="http://www.planeteclipse.org/">Planet Eclipse</a></li>
+            <li><a href="https://www.eclipse.org/community/eclipse_newsletter/">Newsletter</a></li>
+            <li><a href="https://www.youtube.com/user/EclipseFdn">Videos</a></li>
+            <li><a href="https://blogs.eclipse.org">Blogs</a></li>
+          </ul>
+          <ul class="col-sm-8 list-unstyled">
+            <li>
+              <p><strong>Participate</strong></p>
+            </li>
+            <li><a href="https://bugs.eclipse.org/bugs/">Report a Bug</a></li>
+            <li><a href="https://www.eclipse.org/forums/">Forums</a></li>
+            <li><a href="https://www.eclipse.org/mail/">Mailing Lists</a></li>
+            <li><a href="https://wiki.eclipse.org/">Wiki</a></li>
+            <li><a href="https://wiki.eclipse.org/IRC">IRC</a></li>
+          </ul>
+          <ul class="col-sm-8 list-unstyled">
+            <li>
+              <p><strong>Eclipse IDE</strong></p>
+            </li>
+            <li><a href="https://www.eclipse.org/downloads">Download</a></li>
+            <li><a href="https://www.eclipse.org/eclipseide/">Learn more</a></li>
+            <li><a href="https://help.eclipse.org">Documentation</a></li>
+            <li><a href="https://www.eclipse.org/getting_started">Getting Started / Support</a></li>
+            <li><a href="https://www.eclipse.org/contribute/">How to Contribute</a></li>
+            <li><a href="https://www.eclipse.org/ide/">IDE and Tools</a></li>
+            <li><a href="https://www.eclipse.org/forums/index.php/f/89/">Newcomer Forum</a></li>
+          </ul>
+        </div>
+      </div>
+    </li>
+  </ul>
+</li>
+
+
+
+
+          </ul>
+        </div>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-main-menu">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <div class="wrapper-logo-mobile">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+</header>
+
+  
+<section class="default-breadcrumbs hidden-print" id="breadcrumb">
+  <div class="container">
+  <h3 class="sr-only">Breadcrumbs</h3>
+  <div class="row">
+    <div class="col-sm-24">
+      <ol class="breadcrumb">
+        
+      
+      <li class="active">
+        <a href="https://eclipsefdn.github.io/hugo-solstice-theme/">Home</a>
+      </li>
+      
+      </ol>
+      
+    </div>
+  </div>
+</section>
+
+  
+
+<main>
+  <div class="container">
+    
+
+    
+  
+
+
+<div class="col-md-18">
+  
+
+<h1 id="hugo-solstice-theme">hugo-solstice-theme</h1>
+ 
+  
+  <div class="panel panel-warning" id="events">
+    <div class="panel-heading">Events</div>
+    <div class="panel-body">
+      <p>You can add events to a markdown file using the following shortcodes: <strong>{{&lt; events &gt;}}</strong> or <strong>{{&lt; events_table &gt;}}</strong></p>
+
+<p>To add events, create a <strong>events.yml</strong> file in the data folder and add the code bellow:</p>
+
+<pre><code>title: Events
+tagline: Come meet the Eclipse Community at these upcoming events!
+
+#buttons
+more_button_text: View More Events &lt;i class=&quot;fa fa-arrow-down&quot;&gt;&lt;/i&gt;
+submit_button_text: Submit Event
+submit_button_link: https://github.com/EclipseFdn/hugo-solstice-theme/issues/new
+
+items:
+  -
+    name: Example Event 1
+    location: Location, Location
+    date: Month xx, xxxx
+    expire_date: 2030-03-28T23:59:00-00:00
+    button_url: https://github.com/EclipseFdn/hugo-solstice-theme/issues/new
+    button_text: Button text
+  -
+    name: Example Event 2
+    location: Location, Location
+    date: Month xx, xxxx
+    expire_date: 2030-03-28T23:59:00-00:00
+    button_url: https://github.com/EclipseFdn/hugo-solstice-theme/issues/new
+    button_text: Button text
+</code></pre>
+
+<p><strong>Examples:</strong></p>
+
+<p>Here is an example of the events in a block view:</p>
+
+
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+    
+  
+
+  
+  
+
+
+
+  <div class="events padding-bottom-50 padding-top-30">
+    
+      <h2 class="text-center heading-line"><span style="background-color:#fff;">Events</span></h2>
+    
+    
+    
+      <h3 class="h4 text-center">Come meet the Eclipse Community at these upcoming events!</h3>
+    
+
+    <div class="row text-center">
+      
+        <div class="col-sm-12 col-md-6 event">
+          <h3 class="h4">Example Event 1</h3>
+          <p>Location, Location</p>
+          <p>Month xx, xxxx</p>
+          <p class="margin-bottom-0"><a class="btn btn-secondary" href="https://github.com/EclipseFdn/hugo-solstice-theme/issues/new">Button text</a></p>
+        </div>
+      
+        <div class="col-sm-12 col-md-6 event">
+          <h3 class="h4">Example Event 2</h3>
+          <p>Location, Location</p>
+          <p>Month xx, xxxx</p>
+          <p class="margin-bottom-0"><a class="btn btn-secondary" href="https://github.com/EclipseFdn/hugo-solstice-theme/issues/new">Button text</a></p>
+        </div>
+      
+        <div class="col-sm-12 col-md-6 event">
+          <h3 class="h4">Example Event 1</h3>
+          <p>Location, Location</p>
+          <p>Month xx, xxxx</p>
+          <p class="margin-bottom-0"><a class="btn btn-secondary" href="https://github.com/EclipseFdn/hugo-solstice-theme/issues/new">Button text</a></p>
+        </div>
+      
+        <div class="col-sm-12 col-md-6 event">
+          <h3 class="h4">Example Event 2</h3>
+          <p>Location, Location</p>
+          <p>Month xx, xxxx</p>
+          <p class="margin-bottom-0"><a class="btn btn-secondary" href="https://github.com/EclipseFdn/hugo-solstice-theme/issues/new">Button text</a></p>
+        </div>
+      
+    </div>
+    
+      <div class="collapse" id="featured-more-items" aria-expanded="true" style="">
+        <div class="row text-center">
+        
+          <div class="col-sm-12 col-md-6 event">
+            <h3 class="h4">Example Event 1</h3>
+            <p>Location, Location</p>
+            <p>Month xx, xxxx</p>
+            <p class="margin-bottom-0"><a class="btn btn-secondary" href="https://github.com/EclipseFdn/hugo-solstice-theme/issues/new">Button text</a></p>
+          </div>
+        
+        </div>
+      </div>
+    
+    <hr>
+    
+    <ul class="text-center margin-top-15 list-inline">
+      
+      <li><a style="width:160px;" data-toggle-text="Close" role="button" data-toggle="collapse" href="#featured-more-items" aria-expanded="true" aria-controls="featured-more-items" class="btn btn-primary toggle-text">View More Events <i class="fa fa-arrow-down"></i></a></li>
+      
+      
+      <li><a style="width:160px;" class="btn btn-primary" href="https://github.com/EclipseFdn/hugo-solstice-theme/issues/new" target="_blank">Submit Event</a></li>
+      
+    </ul>
+    
+  </div>
+
+
+<p>Here is an example of the events in a table view:</p>
+
+
+
+<div class="table-responsive">
+  <table class="table table-stripped">
+    <thead>
+      <tr>
+        <th>Conference</th>
+        <th>Location</th>
+        <th>Date</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      
+        <tr>
+          <td>Example Event 1</td>
+          <td>Location, Location</td>
+          <td>Month xx, xxxx</td>
+          <td class="text-right">
+            
+            
+              <a class="btn btn-secondary btn-xs" href="https://github.com/EclipseFdn/hugo-solstice-theme/issues/new">Button text</a>
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <td>Example Event 2</td>
+          <td>Location, Location</td>
+          <td>Month xx, xxxx</td>
+          <td class="text-right">
+            
+            
+              <a class="btn btn-secondary btn-xs" href="https://github.com/EclipseFdn/hugo-solstice-theme/issues/new">Button text</a>
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <td>Example Event 1</td>
+          <td>Location, Location</td>
+          <td>Month xx, xxxx</td>
+          <td class="text-right">
+            
+            
+              <a class="btn btn-secondary btn-xs" href="https://github.com/EclipseFdn/hugo-solstice-theme/issues/new">Button text</a>
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <td>Example Event 2</td>
+          <td>Location, Location</td>
+          <td>Month xx, xxxx</td>
+          <td class="text-right">
+            
+            
+              <a class="btn btn-secondary btn-xs" href="https://github.com/EclipseFdn/hugo-solstice-theme/issues/new">Button text</a>
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <td>Example Event 1</td>
+          <td>Location, Location</td>
+          <td>Month xx, xxxx</td>
+          <td class="text-right">
+            
+            
+              <a class="btn btn-secondary btn-xs" href="https://github.com/EclipseFdn/hugo-solstice-theme/issues/new">Button text</a>
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <td>Example Event 2</td>
+          <td>Location, Location</td>
+          <td>Month xx, xxxx</td>
+          <td class="text-right">
+            
+            
+          </td>
+        </tr>
+      
+    </tbody>
+  </table>
+</div>
+</li>
+    </div>
+  </div>
+  
+  <div class="panel panel-warning" id="meeting-minutes">
+    <div class="panel-heading">Meeting Minutes</div>
+    <div class="panel-body">
+      <p>You can add meeting minutes to a markdown file using the shortcode: <strong>{{&lt; meeting_minutes &gt;}}</strong></p>
+
+<p>To add meeting minutes, create a <strong>meeting_minutes.yml</strong> file in the data folder and add the code below:</p>
+
+<pre><code>items:
+   type_1:
+     -
+       title: Type 1 - Hugo Solstice Theme Num-1
+       url: https://github.com/EclipseFdn/hugo-solstice-theme
+
+   type_2:
+     -
+       title: Type 2 - Hugo Solstice Theme Num-1
+       url: https://github.com/EclipseFdn/hugo-solstice-theme
+</code></pre>
+
+<p><strong>Examples:</strong></p>
+
+<p>Here is an example of the output of the meeting minutes shortcode.</p>
+
+
+
+
+<ul class="nav nav-tabs" role="tablist">
+
+  
+  
+    <li role="presentation" class="active"><a href="#type_1" aria-controls="type_1" role="tab" data-toggle="tab">Type 1</a></li>
+    
+  
+
+  
+  
+    <li role="presentation"><a href="#type_2" aria-controls="type_2" role="tab" data-toggle="tab">Type 2</a></li>
+  
+
+</ul>
+
+
+
+<div class="tab-content">
+  
+    
+    
+      <div role="tabpanel" class="tab-pane active" id="type_1">
+    
+      
+      
+      
+      
+      <div class="row">
+        
+          
+          
+          
+            <div class="col-sm-8"><ul>
+          
+          <li><a href="https://github.com/EclipseFdn/hugo-solstice-theme">Type 1 - Hugo Solstice Theme Num-1</a></li>
+          
+            
+            </ul></div>
+          
+          
+          
+        
+          
+          
+          
+            <div class="col-sm-8"><ul>
+          
+          <li><a href="https://github.com/EclipseFdn/hugo-solstice-theme">Type 1 - Hugo Solstice Theme Num-2</a></li>
+          
+            
+            </ul></div>
+          
+          
+          
+        
+      </div>
+    </div>
+    
+  
+    
+    
+      <div role="tabpanel" class="tab-pane" id="type_2">
+    
+      
+      
+      
+      
+      <div class="row">
+        
+          
+          
+          
+            <div class="col-sm-8"><ul>
+          
+          <li><a href="https://github.com/EclipseFdn/hugo-solstice-theme">Type 1 - Hugo Solstice Theme Num-1</a></li>
+          
+            
+            </ul></div>
+          
+          
+          
+        
+          
+          
+          
+            <div class="col-sm-8"><ul>
+          
+          <li><a href="https://github.com/EclipseFdn/hugo-solstice-theme">Type 1 - Hugo Solstice Theme Num-2</a></li>
+          
+            
+            </ul></div>
+          
+          
+          
+        
+          
+          
+          
+            <div class="col-sm-8"><ul>
+          
+          <li><a href="https://github.com/EclipseFdn/hugo-solstice-theme">Type 1 - Hugo Solstice Theme Num-3</a></li>
+          
+            
+            </ul></div>
+          
+          
+          
+        
+      </div>
+    </div>
+    
+  
+</div>
+</li>
+    </div>
+  </div>
+  
+  <div class="panel panel-warning" id="members">
+    <div class="panel-heading">Members</div>
+    <div class="panel-body">
+      <p>To add members, create markdown files in the content/membership/members folder and add the following code to those files:</p>
+
+<pre><code>---
+title: &quot;Member 1&quot;
+date: 2019-03-14T05:10:00-00:00
+draft: false
+logo: &quot;https://www.eclipse.org/eclipse.org-common/themes/solstice/public/images/logo/eclipse-foundation-grey-orange.svg&quot;
+website: &quot;&quot;
+participation_levels: &quot;participation_level_1&quot;
+member_id: 1
+---
+
+This is an example of a members item.
+</code></pre>
+
+<p><strong>Examples:</strong></p>
+
+<p>You can see an example on the <a href="/membership/members/">Members page</a></p>
+</li>
+    </div>
+  </div>
+  
+  <div class="panel panel-warning" id="news">
+    <div class="panel-heading">News</div>
+    <div class="panel-body">
+      <p>To add news items, create a markdown files in the content/news folder and add the following code to those files:</p>
+
+<pre><code>---
+title: &quot;Hello World: Hugo Solstice Theme&quot;
+date: 2019-03-14T05:10:00-00:00
+#link: &quot;&quot;
+categories: [&quot;announcements&quot;]
+---
+
+This is an example of a news item
+</code></pre>
+
+<p><strong>Examples:</strong></p>
+
+<p>You can see an example on the <a href="/news/">News page</a></p>
+</li>
+    </div>
+  </div>
+  
+  <div class="panel panel-warning" id="taxonomy-list">
+    <div class="panel-heading">Taxonomy List</div>
+    <div class="panel-body">
+      <p>You can display taxonomy lists to a markdown file using the following shortcode: <strong>{{&lt; taxonomy_list taxonomy=&quot;participation_levels&quot; section=&quot;membership&quot; term=&quot;participation_level_1&quot; &gt;}}</strong></p>
+
+<p><strong>Examples:</strong></p>
+
+
+
+
+  
+  
+  
+  
+  
+  <div class="news-list-col margin-bottom-40">
+    
+    <h2 class="heading-line">
+      <span>Participation level 1</span>
+    </h2>
+    <div class="news-list-media">
+      
+
+        
+      
+
+        
+      
+
+        
+          
+            
+
+
+
+
+
+
+  
+
+
+<a class="margin-left-15 margin-right-15" href="https://www.eclipse.org/membership/showMember.php?member_id=1">
+  <img src="https://www.eclipse.org/eclipse.org-common/themes/solstice/public/images/logo/eclipse-foundation-grey-orange.svg">
+</a>
+          
+            
+
+
+
+
+
+
+  
+
+
+<a class="margin-left-15 margin-right-15" href="https://www.eclipse.org/membership/showMember.php?member_id=2">
+  <img src="https://www.eclipse.org/eclipse.org-common/themes/solstice/public/images/logo/eclipse-foundation-grey-orange.svg">
+</a>
+          
+        
+      
+
+        
+      
+    </div>
+    
+  </div>
+
+</li>
+    </div>
+  </div>
+  
+  <div class="panel panel-warning" id="testimonials">
+    <div class="panel-heading">Testimonials</div>
+    <div class="panel-body">
+      <p>You can add testimonials to a markdown file using the shortcode <strong>{{&lt; testimonials &gt;}}</strong></p>
+
+<p>To add testimonials, create a <strong>testimonials.yml</strong> file in the data folder and add the code below:</p>
+
+<pre><code>items:
+  -
+    text: Text of the testimonial 1
+    title: Name of the person
+  -
+    text: Text of the testimonial 2
+    title: Name of the person
+</code></pre>
+</li>
+    </div>
+  </div>
+  
+  <div class="panel panel-warning" id="youtube">
+    <div class="panel-heading">Youtube</div>
+    <div class="panel-body">
+      <p>You can add a youtube video to a markdown file using the following shortcode: <strong>{{&lt; youtube &quot;6BsxSJJb6-g&quot; &gt;}}</strong></p>
+
+
+
+<a class="eclipsefdn-video" href="//www.youtube.com/embed/6BsxSJJb6-g"></a>
+</li>
+    </div>
+  </div>
+  
+</div>
+<div class="col-md-6" id="sidebar-column">
+  <nav id="main-sidebar" data-spy="affix"  data-offset-bottom="500" class="hidden-print hidden-sm hidden-xs" style="position:fixed; width: 255px;" >
+    <ul id="leftnav" class="ul-left-nav fa-ul hidden-print">
+      <li class="separator">
+        <a class="separator" href="#">Components</a>
+      </li>
+      
+      <li><i class="fa fa-caret-right fa-fw"></i> <a href="#events" class="padding-reset">Events</a></li>
+      
+      <li><i class="fa fa-caret-right fa-fw"></i> <a href="#meeting-minutes" class="padding-reset">Meeting Minutes</a></li>
+      
+      <li><i class="fa fa-caret-right fa-fw"></i> <a href="#members" class="padding-reset">Members</a></li>
+      
+      <li><i class="fa fa-caret-right fa-fw"></i> <a href="#news" class="padding-reset">News</a></li>
+      
+      <li><i class="fa fa-caret-right fa-fw"></i> <a href="#taxonomy-list" class="padding-reset">Taxonomy List</a></li>
+      
+      <li><i class="fa fa-caret-right fa-fw"></i> <a href="#testimonials" class="padding-reset">Testimonials</a></li>
+      
+      <li><i class="fa fa-caret-right fa-fw"></i> <a href="#youtube" class="padding-reset">Youtube</a></li>
+      
+    </ul>
+  </nav>
+</div>
+
+  
+
+    
+  </div>
+</main>
+  
+  
+<p id="back-to-top">
+  <a class="visible-xs" href="#top">Back to the top</a>
+</p>
+<footer id="solstice-footer">
+  <div class="container">
+    <div class="row">
+      <section class="col-sm-6 hidden-print" id="footer-eclipse-foundation">
+        <h2 class="section-title">Eclipse Foundation</h2>
+        <ul class="nav">
+          <li><a href="https://www.eclipse.org/org/">About Us</a></li>
+          <li><a href="https://www.eclipse.org/org/foundation/contact.php">Contact Us</a></li>
+          <li><a href="https://www.eclipse.org/donate">Donate</a></li>
+          <li><a href="https://www.eclipse.org/org/documents/">Governance</a></li>
+          <li><a href="https://www.eclipse.org/artwork/">Logo and Artwork</a></li>
+          <li><a href="https://www.eclipse.org/org/foundation/directors.php">Board of Directors</a></li>
+        </ul>
+      </section>
+      <section class="col-sm-6 hidden-print" id="footer-legal">
+        <h2 class="section-title">Legal</h2>
+        <ul class="nav">
+          <li><a href="https://www.eclipse.org/legal/privacy.php">Privacy Policy</a></li>
+          <li><a href="https://www.eclipse.org/legal/termsofuse.php">Terms of Use</a></li>
+          <li><a href="https://www.eclipse.org/legal/copyright.php">Copyright Agent</a></li>
+          <li><a href="https://www.eclipse.org/legal/epl-2.0/">Eclipse Public License</a></li>
+          <li><a href="https://www.eclipse.org/legal/">Legal Resources </a></li>
+        </ul>
+      </section>
+      <section class="col-sm-6 hidden-print" id="footer-useful-links">
+        <h2 class="section-title">Useful Links</h2>
+        <ul class="nav">
+          <li><a href="https://bugs.eclipse.org/bugs/">Report a Bug</a></li>
+          <li><a href="//help.eclipse.org/">Documentation</a></li>
+          <li><a href="https://www.eclipse.org/contribute/">How to Contribute</a></li>
+          <li><a href="https://www.eclipse.org/mail/">Mailing Lists</a></li>
+          <li><a href="https://www.eclipse.org/forums/">Forums</a></li>
+          <li><a href="//marketplace.eclipse.org">Marketplace</a></li>
+        </ul>
+      </section>
+      <section class="col-sm-6 hidden-print" id="footer-other">
+        <h2 class="section-title">Other</h2>
+        <ul class="nav">
+          <li><a href="https://www.eclipse.org/ide/">IDE and Tools</a></li>
+          <li><a href="https://www.eclipse.org/projects">Community of Projects</a></li>
+          <li><a href="https://www.eclipse.org/org/workinggroups/">Working Groups</a></li>
+          <li><a href="https://www.eclipse.org/org/research/">Research@Eclipse</a></li>
+          <li><a href="https://www.eclipse.org/security/">Report a Vulnerability</a></li>
+          <li><a href="https://status.eclipse.org">Service Status</a></li>
+        </ul>
+      </section>
+      <div class="col-sm-24 margin-top-20">
+        <div class="row">
+          <div id="copyright" class="col-md-16">
+            <p id="copyright-text">Copyright &copy; Eclipse Foundation, Inc. All Rights Reserved.</p>
+          </div>
+          <div class="col-md-8 social-media">
+            <ul class="list-inline">
+              <li>
+                <a class="social-media-link fa-stack fa-lg" href="https://twitter.com/EclipseFdn">
+                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x"></i>
+                </a>
+              </li>
+              <li>
+                <a class="social-media-link fa-stack fa-lg" href="https://plus.google.com/+Eclipse">
+                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                <i class="fa fa-google-plus fa-stack-1x"></i>
+                </a>
+              </li>
+              <li>
+                <a class="social-media-link fa-stack fa-lg" href="https://www.facebook.com/eclipse.org">
+                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x"></i>
+                </a>
+              </li>
+              <li>
+                <a class="social-media-link fa-stack fa-lg" href="https://www.youtube.com/user/EclipseFdn">
+                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                <i class="fa fa-youtube fa-stack-1x"></i>
+                </a>
+              </li>
+              <li>
+                <a class="social-media-link fa-stack fa-lg" href="https://www.linkedin.com/company/eclipse-foundation">
+                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                <i class="fa fa-linkedin fa-stack-1x"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="scrollup">Back to the top</a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://www.eclipse.org/eclipse.org-common/themes/solstice/public/javascript/main.min.js"></script>
+
+
+  
+<script> 
+$(document).ready(function() {
+  var new_width = $('#sidebar-column').width();
+  $('#main-sidebar').width(new_width); 
+});
+</script>
+
+</body>
+</html>
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FAQ on Hugo Solstice Theme</title>
+    <link>https://eclipsefdn.github.io/hugo-solstice-theme/faq/</link>
+    <description>Recent content in FAQ on Hugo Solstice Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>webdev@eclipse-foundation.org (Christopher Guindon)</managingEditor>
+    <webMaster>webdev@eclipse-foundation.org (Christopher Guindon)</webMaster>
+    <lastBuildDate>Mon, 01 Apr 2019 13:30:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://eclipsefdn.github.io/hugo-solstice-theme/faq/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>FAQ What is Eclipse?</title>
+      <link>https://eclipsefdn.github.io/hugo-solstice-theme/faq/faq_1/</link>
+      <pubDate>Mon, 01 Apr 2019 13:30:00 +0000</pubDate>
+      <author>webdev@eclipse-foundation.org (Christopher Guindon)</author>
+      <guid>https://eclipsefdn.github.io/hugo-solstice-theme/faq/faq_1/</guid>
+      <description>The way you download Eclipse depends on how close you want to be to the &amp;#147;live stream.&amp;#148; Following are the release types that can be downloaded from the Eclipse download site (http://eclipse.org/downloads), in increasing level of closeness to the CVS HEAD stream:
+ The latest release, used by most products in the market. These releases have little risk of surprises, yet those builds can be up to 6 months behind what is being worked on now.</description>
+    </item>
+    
+    <item>
+      <title>FAQ What is the Eclipse Platform?</title>
+      <link>https://eclipsefdn.github.io/hugo-solstice-theme/faq/faq_2/</link>
+      <pubDate>Mon, 01 Apr 2019 13:30:00 +0000</pubDate>
+      <author>webdev@eclipse-foundation.org (Christopher Guindon)</author>
+      <guid>https://eclipsefdn.github.io/hugo-solstice-theme/faq/faq_2/</guid>
+      <description>Those who download the generic Eclipse Platform&amp;mdash;usually by mistake&amp;mdash;are somewhat confounded by what they see. The platform was conceived as the generic foundation for an IDE. That is, the platform is an IDE without any particular programming language in mind. You can create generic projects, edit files in a generic text editor, and share the projects and files with a Concurrent Versions System (CVS) server. The platform is essentially a glorified version of a file-system browser.</description>
+    </item>
+    
+  </channel>
+</rss>

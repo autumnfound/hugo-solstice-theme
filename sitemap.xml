@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://eclipsefdn.github.io/hugo-solstice-theme/faq/</loc>
+    <lastmod>2019-04-01T13:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eclipsefdn.github.io/hugo-solstice-theme/faq/faq_1/</loc>
+    <lastmod>2019-04-01T13:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eclipsefdn.github.io/hugo-solstice-theme/faq/faq_2/</loc>
+    <lastmod>2019-04-01T13:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eclipsefdn.github.io/hugo-solstice-theme/news/2019/03/14/hello-world-hugo-solstice-theme/</loc>
+    <lastmod>2019-03-14T05:10:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eclipsefdn.github.io/hugo-solstice-theme/membership/members/member1/</loc>
+    <lastmod>2019-03-14T05:10:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eclipsefdn.github.io/hugo-solstice-theme/membership/members/member2/</loc>
+    <lastmod>2019-03-14T05:10:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eclipsefdn.github.io/hugo-solstice-theme/membership/members/member3/</loc>
+    <lastmod>2019-03-14T05:10:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eclipsefdn.github.io/hugo-solstice-theme/membership/members/member4/</loc>
+    <lastmod>2019-03-14T05:10:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eclipsefdn.github.io/hugo-solstice-theme/news/2019/03/13/hello-world-hugo-solstice-theme/</loc>
+    <lastmod>2019-03-13T05:10:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eclipsefdn.github.io/hugo-solstice-theme/single_page/</loc>
+    <lastmod>2018-04-05T16:09:45-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eclipsefdn.github.io/hugo-solstice-theme/events/</loc>
+    <lastmod>2018-04-05T15:50:25-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eclipsefdn.github.io/hugo-solstice-theme/membership/members/</loc>
+    <lastmod>2018-04-05T15:50:25-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eclipsefdn.github.io/hugo-solstice-theme/</loc>
+    <lastmod>2018-04-05T15:50:25-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eclipsefdn.github.io/hugo-solstice-theme/membership/</loc>
+    <lastmod>2018-04-05T15:50:25-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eclipsefdn.github.io/hugo-solstice-theme/news/</loc>
+    <lastmod>2018-04-05T15:50:25-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://eclipsefdn.github.io/hugo-solstice-theme/categories/announcements/</loc>
+    <lastmod>2019-03-14T05:10:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://eclipsefdn.github.io/hugo-solstice-theme/categories/</loc>
+    <lastmod>2019-03-14T05:10:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://eclipsefdn.github.io/hugo-solstice-theme/categories/community_news/</loc>
+    <lastmod>2019-03-13T05:10:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://eclipsefdn.github.io/hugo-solstice-theme/membership_levels/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://eclipsefdn.github.io/hugo-solstice-theme/participation_levels/participation_level_1/</loc>
+    <lastmod>2019-03-14T05:10:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://eclipsefdn.github.io/hugo-solstice-theme/participation_levels/participation_level_2/</loc>
+    <lastmod>2019-03-14T05:10:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://eclipsefdn.github.io/hugo-solstice-theme/participation_levels/participation_level_3/</loc>
+    <lastmod>2019-03-14T05:10:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://eclipsefdn.github.io/hugo-solstice-theme/participation_levels/</loc>
+    <lastmod>2019-03-14T05:10:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://eclipsefdn.github.io/hugo-solstice-theme/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

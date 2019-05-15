@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Explore Members on Hugo Solstice Theme</title>
+    <link>https://eclipsefdn.github.io/hugo-solstice-theme/membership/members/</link>
+    <description>Recent content in Explore Members on Hugo Solstice Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>webdev@eclipse-foundation.org (Christopher Guindon)</managingEditor>
+    <webMaster>webdev@eclipse-foundation.org (Christopher Guindon)</webMaster>
+    <lastBuildDate>Thu, 05 Apr 2018 15:50:25 -0400</lastBuildDate>
+    
+	<atom:link href="https://eclipsefdn.github.io/hugo-solstice-theme/membership/members/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Member 1</title>
+      <link>https://eclipsefdn.github.io/hugo-solstice-theme/membership/members/member1/</link>
+      <pubDate>Thu, 14 Mar 2019 05:10:00 +0000</pubDate>
+      <author>webdev@eclipse-foundation.org (Christopher Guindon)</author>
+      <guid>https://eclipsefdn.github.io/hugo-solstice-theme/membership/members/member1/</guid>
+      <description>This is an example of the Eclipse Foundation Solstice theme for Hugo.</description>
+    </item>
+    
+    <item>
+      <title>Member 2</title>
+      <link>https://eclipsefdn.github.io/hugo-solstice-theme/membership/members/member2/</link>
+      <pubDate>Thu, 14 Mar 2019 05:10:00 +0000</pubDate>
+      <author>webdev@eclipse-foundation.org (Christopher Guindon)</author>
+      <guid>https://eclipsefdn.github.io/hugo-solstice-theme/membership/members/member2/</guid>
+      <description>This is an example of the Eclipse Foundation Solstice theme for Hugo.</description>
+    </item>
+    
+    <item>
+      <title>Member 3</title>
+      <link>https://eclipsefdn.github.io/hugo-solstice-theme/membership/members/member3/</link>
+      <pubDate>Thu, 14 Mar 2019 05:10:00 +0000</pubDate>
+      <author>webdev@eclipse-foundation.org (Christopher Guindon)</author>
+      <guid>https://eclipsefdn.github.io/hugo-solstice-theme/membership/members/member3/</guid>
+      <description>This is an example of the Eclipse Foundation Solstice theme for Hugo.</description>
+    </item>
+    
+    <item>
+      <title>Member 4</title>
+      <link>https://eclipsefdn.github.io/hugo-solstice-theme/membership/members/member4/</link>
+      <pubDate>Thu, 14 Mar 2019 05:10:00 +0000</pubDate>
+      <author>webdev@eclipse-foundation.org (Christopher Guindon)</author>
+      <guid>https://eclipsefdn.github.io/hugo-solstice-theme/membership/members/member4/</guid>
+      <description>This is an example of the Eclipse Foundation Solstice theme for Hugo.</description>
+    </item>
+    
+  </channel>
+</rss>
